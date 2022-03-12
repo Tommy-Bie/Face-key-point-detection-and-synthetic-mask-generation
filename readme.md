@@ -52,32 +52,36 @@ python main.py --mode keypoint -- image data/test.jpg
 
 
 <center class="half">
-    <img src="figure\test.jpg" alt="test" style="zoom:50%;" />
-    <img src="figure\test.jpg_with_mask.png" alt="test.jpg_with_mask" style="zoom:50%;" />
+    <img src="figure\test.jpg" alt="test" style="zoom:30%;" />
+    <img src="figure\keypoint.png" alt="test" style="zoom:30%;" />
+    <img src="figure\keypoint_mask.png" alt="test" style="zoom:30%;" />
+    <img src="figure\mask.png" alt="test.jpg_with_mask" style="zoom:30%;" />
 </center>
+
 
 
 
 ##### key point:
 
    <center class="half">
-       <img src="figure\result1.png" alt="result1" style="zoom:50%;" />
-       <img src="figure\result2.png" alt="result2" style="zoom:50%;" />
-       <img src="figure\result3.png" alt="result3" style="zoom:50%;" />
-       <img src="figure\result4.png" alt="result4" style="zoom:50%;" />
-       <img src="figure\result5.png" alt="result5" style="zoom:50%;" />
-       <img src="figure\result6.png" alt="result6" style="zoom:50%;" />
-       <img src="figure\result7.png" alt="result7" style="zoom:50%;" />
-       <img src="figure\result8.png" alt="result8" style="zoom:50%;" />
+       <img src="figure\result1.png" alt="result1" style="zoom:30%;" />
+       <img src="figure\result2.png" alt="result2" style="zoom:30%;" />
+       <img src="figure\result3.png" alt="result3" style="zoom:30%;" />
+       <img src="figure\result4.png" alt="result4" style="zoom:30%;" />
+       <img src="figure\result5.png" alt="result5" style="zoom:30%;" />
+       <img src="figure\result6.png" alt="result6" style="zoom:30%;" />
+       <img src="figure\result7.png" alt="result7" style="zoom:30%;" />
+       <img src="figure\result8.png" alt="result8" style="zoom:30%;" />
+
 
 
 
 ​       
 
 
-  
 
-   
+
+
 
 ​       
 

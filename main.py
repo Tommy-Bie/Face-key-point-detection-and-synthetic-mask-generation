@@ -101,7 +101,19 @@ def add_mask(input_image_path):
     cv2.imwrite('{}_with_mask.png'.format(input_image_path), image_with_mask)
     cv2.imshow('image_with_mask', image_with_mask)
     cv2.waitKey(0)
-
+    # visualize the key points used to generate mask
+    # if you need it, just comment it and edit the path
+    # keypoint = image.copy()
+    # keypoint_mask = rgbImg.copy()
+    # for (x, y) in pts[0]:
+    #     cv2.circle(keypoint, (x, y), 3, (0, 0, 255), -1)
+    #     cv2.circle(keypoint_mask, (x, y), 3, (0, 0, 255), -1)
+    # if image_with_keypoint is None:
+    #     print('error')
+    # cv2.imshow('image with keypoint', image_with_keypoint)
+    # cv2.waitKey(0)
+    # cv2.imwrite('data/keypoint.png', keypoint)
+    # cv2.imwrite('data/keypoint_mask.png', keypoint_mask)
 
 
 #  convert all the images in input_dir_path to image_with_mask and save into output_dir_path
