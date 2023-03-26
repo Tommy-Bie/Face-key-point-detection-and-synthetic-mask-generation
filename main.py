@@ -70,7 +70,6 @@ def visualize_facial_landmarks(image, shape, colors=None, alpha=0.75):
                 cv2.line(overlay, ptA, ptB, colors[i], 2)
 
         else:
-
             # draw contours
             hull = cv2.convexHull(pts)
             cv2.drawContours(overlay, [hull], -1, colors[i], -1)
